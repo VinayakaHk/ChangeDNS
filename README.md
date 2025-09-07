@@ -74,5 +74,5 @@ The username and password of this router was expected - admin
 
 Then after I logged in, I saw that the DNS was set to 192.168.1.1, which was the same IP as the router itself. The router then forwards the DNS requests to an Upstream DNS resolver, such as Airtel themselves. 
 
-I feel like this is an invasion of privacy, and harms it's customers and erodes their trust. So In order to combat this issue, I feel like I need to take things into my own hands and change the DNS myself. 
+I feel like this is an invasion of privacy, and harms it's customers and erodes their trust. So I've made this repo in order to combat this issue
 
