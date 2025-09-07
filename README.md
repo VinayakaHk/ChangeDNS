@@ -13,17 +13,41 @@ This repository contains a script that helps you unlock and configure custom DNS
 
 1. Copy the code from `routerscript.js` in this repository.  
 2. Open your router configuration page by navigating to `192.168.1.1` in your browser.  
-3. Go to **Network → LAN**.  
+
+![Step 2](assets/step2.png)
+
+3. Go to **Net → LAN**.  
+
 4. Open the browser console by pressing **F12** or **Ctrl + Shift + I**.  
+
+
+![Step 4](assets/step4.png)
+
 5. In the console, type `allow pasting` and then paste the copied code.  
-6. Right-click and inspect the **Enable/Disable** button in the DNS settings. Remove the `disabled` attribute from the `<button>`.  
+
+![Step 5](assets/step5.png)
+
+6. Right-click and inspect the **Enable and Disable** button in the DNS settings. Remove the `disabled` attribute from the `<input>`.  
+
+![Step 6](assets/step6.png)
+
+![Step 6a](assets/step6a.png)
+
 7. Remove the `disabled` attribute from the `<input>` fields for the **Primary** and **Secondary DNS**.  
+
+![Step 7](assets/step7.png)
+
 8. Remove the `disabled` attribute from the **Submit** `<button>`.  
+
+![Step 8](assets/step8.png)
+
 9. Enter the DNS values you want to configure. Examples:  
    - `1.1.1.1` and `1.0.0.1` for Cloudflare Primary and Secondary DNS  
    - `8.8.8.8` and `8.8.4.4` for Google Primary and Secondary DNS  
 10. Click **Submit**.  
 11. Restart your router for the changes to take effect.  
+
+![Step 11](assets/step11.png)
 
 ## Note 
 
